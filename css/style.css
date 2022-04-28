@@ -1,9 +1,5 @@
 @use 'base';
 @use 'daily';
-
-@import "base";
-@import "daily";
-
 * {
   margin: 0;
   padding: 0;
@@ -283,5 +279,83 @@ main {
   margin: 2vw;
   color: #949494;
   font-weight: 600;
+}
+
+.text-di-m {
+  font-size: 110%;
+  font-weight: 600;
+  color: #5e5e5e;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.text-di-s {
+  font-size: 95%;
+  color: #5e5e5e;
+  margin-left: 2vw;
+}
+
+#nav {
+  width: 100vw;
+  height: 5vh;
+  margin-top: 5vh;
+}
+
+#nav > div:nth-child(1) {
+  width: 100vw;
+  height: 5vh;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d4d4d4;
+  position: fixed;
+  top: 5vh;
+}
+
+#nav > div:nth-child(2) {
+  width: 20vw;
+  height: 20vw;
+  background-color: #949494;
+  border-radius: 20vw;
+  position: fixed;
+  top: 80vh;
+  left: 70vw;
+}
+
+#pictures {
+  width: 90vw;
+  height: 24vh;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  margin-bottom: 2vh;
+}
+
+#pictures > div {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
 }
 /*# sourceMappingURL=style.css.map */
