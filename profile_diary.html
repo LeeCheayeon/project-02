@@ -11,14 +11,11 @@
     :root {
       --color-1:#d4d4d4;
       --color-2:#949494;
-      --color-3:#5e5e5e;
-      --color-4:#252525;
-      --color-5:#ffffff;
     }
 
     main>section:nth-child(3){
-      width: 100vw;
-      height: 60vh;
+      width: inherit;
+      height: 58vh;
 
       display: flex;
       justify-content: center;
@@ -27,30 +24,29 @@
     }
     
     main>section:nth-child(3)>div:nth-child(1) {
+      height: 23vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      
     }
 
     main>section:nth-child(3)>div:nth-child(1)>div {
       display: flex;
       justify-content: center;
       align-items: center;
-      /* flex-direction: column; */
 
       width: 84vw;
-      height: 21vh;
+      height: 20vh;
       background-color: var(--color-1);
     }
 
     main>section:nth-child(3)>div:nth-child(1)>div>div{
-      margin: 2vw;
+      margin: 1.9vw;
     }
 
     main>section:nth-child(3)>div:nth-child(1)>div>div:nth-child(2){
       border: 0.5px dashed var(--color-2);
-      height: 20vh;
+      height: 19vh;
     }
     main>section:nth-child(3)>div:nth-child(1)>div>div:nth-child(3){
       height: 18vh;
@@ -98,9 +94,11 @@
   <header>
     <div></div>
     <nav>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
   </header>
 
@@ -166,6 +164,7 @@
       </div>
     </section>
   </main>
-
 </body>
 </html>
+
+<!--style.css에 base.css를 넣었는데 적용이 안된다. 원인을 찾아야함.-->

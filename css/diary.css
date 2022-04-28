@@ -3,13 +3,8 @@
   height: 30vh;
   background-color: #d4d4d4;
   margin-top: 5vh;
-}
-
-.diary-box {
-  width: 90vw;
-  height: 25vh;
-  background-color: #949494;
-  margin-top: 2vh;
+  position: absolute;
+  top: 0;
 }
 
 .icon-ul {
@@ -17,7 +12,7 @@
   height: 7vw;
   background-color: #949494;
   position: absolute;
-  top: 6vh;
+  top: 2vh;
   left: 5vw;
 }
 
@@ -26,7 +21,7 @@
   height: 7vw;
   background-color: #949494;
   position: absolute;
-  top: 6vh;
+  top: 2vh;
   left: 89vw;
 }
 
@@ -35,7 +30,7 @@
   height: 7vw;
   background-color: #949494;
   position: absolute;
-  top: 27vh;
+  top: 24vh;
   left: 89vw;
 }
 
@@ -43,7 +38,7 @@
   width: 60vw;
   height: 8vh;
   position: absolute;
-  top: 24vh;
+  top: 21vh;
   left: 5vw;
 }
 
@@ -73,6 +68,9 @@
 #under-menu {
   width: 100vw;
   height: 5vh;
+  position: absolute;
+  top: 35vh;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,6 +135,12 @@
 #under-menu > div:nth-child(1) > div :hover {
   height: 3.5vh;
   border-bottom: 3px solid #5e5e5e;
-  padding-top: 1.5vh;
+  padding-top: 1.4vh;
+}
+
+main > section:nth-child(3) {
+  position: absolute;
+  top: 40vh;
+  margin-top: 3vw;
 }
 /*# sourceMappingURL=diary.css.map */
