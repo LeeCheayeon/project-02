@@ -155,4 +155,50 @@ main {
   color: #252525;
   line-height: 5vw;
 }
+
+.icon {
+  width: 5vw;
+  height: 5vw;
+  background-color: #d4d4d4;
+}
+
+.text-s {
+  font-size: 95%;
+  color: var(--color-3);
+}
+
+.text-s-c {
+  font-size: 95%;
+  color: var(--color-3);
+  text-decoration: line-through;
+}
+
+.flex-s-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.check-box {
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid var(--color-2);
+  margin: 1vw;
+  margin-left: 2vw;
+}
+
+.check-box-c {
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid var(--color-2);
+  background-color: var(--color-2);
+  margin: 1vw;
+  margin-left: 2vw;
+}
 /*# sourceMappingURL=style.css.map */

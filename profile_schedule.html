@@ -16,11 +16,121 @@
       --color-5:#ffffff;
     }
 
-    main>section:nth-child(3) {
-      width: 100vw;
-      height: 60vh;
+    main>section:nth-child(2)>div:nth-child(1)>div:nth-child(3)>div {
+      font-weight: 600;
     }
 
+    main>section:nth-child(3) {
+      width: 100vw;
+      height: 53vh;
+
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+
+    }
+
+    main>section:nth-child(3)>div:nth-child(1){
+      width: 90vw;
+      height: 20vh;
+    }
+    
+    main>section:nth-child(3)>div:nth-child(1)>div:nth-child(1){
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    main>section:nth-child(3)>div:nth-child(1)>div:nth-child(2){
+      border: 1px dashed var(--color-4);
+      background-color: var(--color-1);
+      width: inherit;
+      /* height: 15vh; */
+      
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    span{
+      font-weight: 600;
+    }
+
+    /* <캘린터> */
+    .calender {
+      width: 90vw;
+      height: 33vh;
+      border: 1px solid var(--color-2);
+      background-color: var(--color-5);
+
+      margin-top: 1vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main>section:nth-child(3)>div:nth-child(2)>div:nth-child(1) {
+      width: inherit;
+      height: 2vh;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      position: relative;
+      top:-1.5vh;
+    }
+
+    main>section:nth-child(3)>div:nth-child(2)>div:nth-child(1)>div {
+      background-color: var(--color-3);
+      width: 2vw;
+      height: 3vw;
+    }
+
+    h1 {
+      width: 90vw;
+      margin-left: 10vw;
+      font-size: 250%;
+      color: var(--color-3);
+    }
+
+    main>section:nth-child(3)>div:nth-child(2)>div:nth-child(3) {
+      width: 85vw;
+      height: 23vh;
+      
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-gap: 1vw;
+
+      text-align: center;
+    }
+
+    .numder {
+      padding-top: 2vw;
+    }
+
+    .numder:hover {
+    background-color: #2fc2b3;
+    border-radius: 8%;
+    color: #fff !important;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+    .numder:nth-child(7n) {
+      color:#ff685d;
+      font-weight: 600;
+    }
+
+    .sat {
+      color:#6a99ff;
+      font-weight: 600;
+    }
 
   </style>
 </head>
@@ -60,6 +170,90 @@
       <div class="under-bar"></div>
     </section>
     <section>
+      <div>
+        <div>
+          <div class="text-d-sm">이번주 일정</div>
+          <div class="icon"></div>
+        </div>
+        <div><!--일정 박스-->
+          <div class="flex-s-c"><!--일정묶음-->
+            <div class="check-box"></div><!--체크박스-->
+            <div class="text-s"><span>4/12</span> 밤톨이 00하는 날</div>
+          </div>
+          <div class="flex-s-c"><!--일정묶음-->
+            <div class="check-box"></div><!--체크박스-->
+            <div class="text-s"><span>4/12</span> 밤톨이 00하는 날</div>
+          </div>
+          <div class="flex-s-c"><!--일정묶음-->
+            <div class="check-box"></div><!--체크박스-->
+            <div class="text-s"><span>4/12</span> 밤톨이 00하는 날</div>
+          </div>
+          <div class="flex-s-c"><!--일정묶음-->
+            <div class="check-box"></div><!--체크박스-->
+            <div class="text-s"><span>4/12</span> 밤톨이 00하는 날</div>
+          </div>
+          <div class="flex-s-c"><!--일정묶음-->
+            <div class="check-box-c"></div><!--체크박스-->
+            <div class="text-s-c"><span>4/12</span> 밤톨이 00하는 날</div>
+          </div>
+        </div>
+      </div>
+      <div class="calender"><!--달력-->
+        <div><!--스프링-->
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h1>4</h1>
+        <div><!--grid-->
+          <div class="numder"></div>
+          <div class="numder"></div>
+          <div class="numder"></div>
+          <div class="numder"></div>
+          <div class="numder"></div>
+          <div class="numder">1</div>
+          <div class="numder">2</div>
+          <div class="numder sat">3</div>
+          <div class="numder">4</div>
+          <div class="numder">5</div>
+          <div class="numder">6</div>
+          <div class="numder">7</div>
+          <div class="numder">8</div>
+          <div class="numder">9</div>
+          <div class="numder sat">10</div>
+          <div class="numder">11</div>
+          <div class="numder">12</div>
+          <div class="numder">13</div>
+          <div class="numder">14</div>
+          <div class="numder">15</div>
+          <div class="numder">16</div>
+          <div class="numder sat">17</div>
+          <div class="numder">18</div>
+          <div class="numder">19</div>
+          <div class="numder">20</div>
+          <div class="numder">21</div>
+          <div class="numder">22</div>
+          <div class="numder">23</div>
+          <div class="numder sat">24</div>
+          <div class="numder">25</div>
+          <div class="numder">26</div>
+          <div class="numder">27</div>
+          <div class="numder">28</div>
+          <div class="numder">29</div>
+          <div class="numder">30</div>
+        </div>
+      </div>
     </section>
   </main>
 

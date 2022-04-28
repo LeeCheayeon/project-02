@@ -149,3 +149,43 @@ main {
 
 //프로필 스케줄 내용
 
+.icon {
+  width: 5vw;
+  height: 5vw;
+  background-color: $color-1;
+}
+
+.text-s {
+  font-size: 95%;
+  color: var(--color-3);
+}
+
+.text-s-c {
+  font-size: 95%;
+  color: var(--color-3);
+  text-decoration: line-through;
+}
+
+
+.flex-s-c {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.check-box{
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid var(--color-2);
+  margin: 1vw;
+  margin-left: 2vw;
+}
+
+.check-box-c{
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid var(--color-2);
+  background-color: var(--color-2);
+  margin: 1vw;
+  margin-left: 2vw;
+}
