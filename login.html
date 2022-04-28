@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>로그인</title>
+
+  <style>
+
+  :root {
+    --color-1:#d4d4d4;
+    --color-2:#949494;
+    --color-3:#5e5e5e;
+    --color-4:#252525;
+    --color-5:#ffffff;
+  }
+    main>section:nth-child(1){
+      width: 90vw;
+      height: 40vh;
+    }
+    
+    main>section:nth-child(1)>div:nth-child(1) {
+      width: 35vw;
+      height: 13vh;
+      background-color: var(--color-1);
+    }
+    
+    main>section:nth-child(1)>div:nth-child(2){
+      width: 70vw;
+      height: 20vh;
+
+      display: grid;
+      grid-template-columns: repeat(1, 70vw);
+      grid-template-rows: repeat(3, 6vh);
+      grid-gap: 2vw;
+
+      margin-top: 2vh;
+    }
+
+    main>section:nth-child(2) {
+      width: 90vw;
+      height: 40vh;
+    }
+    
+    main>section:nth-child(2)>div:nth-child(2){
+      width: 70vw;
+      height: 30vh;
+
+      display: grid;
+      grid-template-columns: repeat(1, 70vw);
+      grid-template-rows: repeat(4, 6vh);
+      grid-gap: 2vw;
+
+      margin-top: 3vw;
+
+    }
+    </style>
+</head>
+<body>
+  <main>
+    <section class="f-c-c-c">
+      <div><!--logo--></div>
+      <div><!--grid-->
+        <div class="login-box-1">아이디</div>
+        <div class="login-box-1">패스워드</div>
+        <div class="login-box-2">Enter</div>
+      </div>
+      <div class="text-l-s">회원가입</div>
+    </section>
+    <section class="f-c-c-c">
+      <div class="f-c-c"><!--sns 로그인-->
+        <div class="under-bar-l"></div>
+        <div class="text-l-m">SNS 로그인</div>
+        <div class="under-bar-l"></div>
+      </div>
+      <div><!--grid-->
+        <div class="login-box-3">Goggle login</div>
+        <div class="login-box-3">Kakao login</div>
+        <div class="login-box-3">Naver login</div>
+        <div class="login-box-3">Apple login</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html> 

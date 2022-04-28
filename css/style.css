@@ -1,5 +1,5 @@
-@import "base.css";
-@import "diary.css";
+@use 'base';
+@use 'diary';
 * {
   margin: 0;
   padding: 0;
@@ -199,5 +199,85 @@ main {
   background-color: var(--color-2);
   margin: 1vw;
   margin-left: 2vw;
+}
+
+.f-c-c-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.f-c-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-box-1 {
+  border: 1px solid #d4d4d4;
+  border-radius: 4vw;
+  padding-top: 1.6vh;
+  padding-left: 4vw;
+  color: #949494;
+  font-size: 95%;
+}
+
+.login-box-2 {
+  background-color: #d4d4d4;
+  border-radius: 4vw;
+  text-align: center;
+  padding-top: 1.3vh;
+  font-size: 120%;
+  font-weight: 600;
+  color: #949494;
+}
+
+.login-box-3 {
+  background-color: #d4d4d4;
+  border-radius: 4vw;
+  text-align: center;
+  padding-top: 1.4vh;
+  font-size: 105%;
+  color: #5e5e5e;
+}
+
+.text-l-s {
+  width: 66vw;
+  padding-top: 1vh;
+  color: #5e5e5e;
+  text-align: end;
+}
+
+.text-l-s:hover {
+  font-weight: 600;
+  color: #252525;
+}
+
+.under-bar-l {
+  background-color: #949494;
+  width: 28vw;
+  height: 0.1vh;
+}
+
+.text-l-m {
+  margin: 2vw;
+  color: #949494;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

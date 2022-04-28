@@ -192,4 +192,71 @@ main {
   margin-left: 2vw;
 }
 
-//
+// 로그인
+.f-c-c-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.f-c-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box-1 {
+  border: 1px solid $color-1;
+  border-radius: 4vw;
+
+  padding-top: 1.6vh;
+  padding-left: 4vw;
+  color: $color-2;
+  font-size: 95%;
+}
+
+.login-box-2{
+  background-color: $color-1;
+  border-radius: 4vw;
+
+  text-align: center;
+  padding-top: 1.3vh;
+  font-size: 120%;
+  font-weight: 600;
+  color: $color-2;
+}
+
+.login-box-3{
+  background-color: $color-1;
+  border-radius: 4vw;
+
+  text-align: center;
+  padding-top: 1.4vh;
+  font-size: 105%;
+  color: $color-3;
+}
+
+.text-l-s {
+  width: 66vw;
+  padding-top: 1vh;
+  color: $color-3;
+  text-align: end;
+}
+
+.text-l-s:hover {
+  font-weight: 600;
+  color: $color-4;
+}
+
+.under-bar-l {
+  background-color: $color-2;
+  width: 28vw;
+  height: 0.1vh;
+}
+
+.text-l-m {
+  margin: 2vw;
+  color: $color-2;
+  font-weight: 600;
+}
