@@ -358,4 +358,38 @@ main {
   margin-left: 2vw;
   margin-bottom: 2vw;
 }
+
+.box-mypage {
+  width: 40vw;
+  height: 40vw;
+  border-radius: 20vw;
+  background-color: #d4d4d4;
+  margin-bottom: 3vh;
+}
+
+.text-d-t {
+  font-size: 110%;
+  color: #5e5e5e;
+  font-weight: 600;
+}
+
+.text-d-tt {
+  font-size: 90%;
+  color: #949494;
+}
+
+.mypage-box {
+  border: 1px solid #d4d4d4;
+  border-radius: 4vw;
+  text-align: center;
+  padding-top: 1.6vh;
+  color: #949494;
+  font-size: 95%;
+}
+
+.mypage-box:hover {
+  background-color: #d4d4d4;
+  font-weight: 600;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */

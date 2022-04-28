@@ -324,3 +324,39 @@ main {
     margin-bottom: 2vw;
   }
 }
+
+//마이페이지
+.box-mypage {
+  width: 40vw;
+  height: 40vw;
+  border-radius: 20vw;
+  background-color: $color-1;
+  margin-bottom: 3vh;
+}
+
+.text-d-t{
+  font-size: 110%;
+  color: $color-3;
+  font-weight: 600;
+}
+
+.text-d-tt{
+  font-size: 90%;
+  color: $color-2;
+}
+
+.mypage-box {
+  border: 1px solid $color-1;
+  border-radius: 4vw;
+  text-align: center;
+
+  padding-top: 1.6vh;
+  color: $color-2;
+  font-size: 95%;
+}
+
+.mypage-box:hover {
+  background-color: $color-1;
+  font-weight: 600;
+  color: $color-5;
+}

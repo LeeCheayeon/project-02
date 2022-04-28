@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>마이 페이지</title>
+  <style>
+
+    :root {
+      --color-1:#d4d4d4;
+      --color-2:#949494;
+    }
+
+    main>section:nth-child(2)>div:nth-child(2){
+      margin-bottom: 1vh;
+    }
+
+    main>section:nth-child(3) {
+      width: 70vw;
+      height: 38vh;
+
+      margin-top: 5vh;
+
+      display: grid;
+      grid-template-columns: repeat(1, 70vw);
+      grid-template-rows: (5, 6vh);
+      grid-gap: 4vw;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div></div>
+    <nav>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="nav">
+      <div class="f-c-c"><!--상단고정-->
+        <div class="icon"></div>
+        <div class="text-di-m">마이페이지</div>
+        <div class="icon"></div>
+      </div>
+    </div>
+    <section class="f-c-c-c">
+      <div class="box-mypage"></div>
+      <div class="text-d-t">000님</div>
+      <div class="text-d-tt">"오늘 밤톨이 일정을 확인해봐요."</div>
+    </section>
+    <section><!--grid-->
+      <div class="mypage-box">일정표 바로가기</div>
+      <div class="mypage-box">주변 병원 찾기</div>
+      <div class="mypage-box">포토북 제작하기</div>
+      <div class="mypage-box">포토북 주문이력</div>
+      <div class="mypage-box">로그아웃</div>
+    </section>
+  </main>
+</body>
+</html>
+
+<!--style.css에 base.css를 넣었는데 적용이 안된다. 재확인-->
