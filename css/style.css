@@ -1,5 +1,9 @@
 @use 'base';
-@use 'diary';
+@use 'daily';
+
+@import "base";
+@import "daily";
+
 * {
   margin: 0;
   padding: 0;

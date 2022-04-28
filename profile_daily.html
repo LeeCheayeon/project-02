@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>밤톨이의 하루</title>
+  <style>
+
+    :root {
+      --color-1:#d4d4d4;
+      --color-2:#949494;
+    }
+    
+    main>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div {
+      font-weight: 600;
+    }
+
+    main>section:nth-child(3){
+      width: inherit;
+      height: 58vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    main>section:nth-child(3)>div:nth-child(1) {
+      height: 23vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main>section:nth-child(3)>div:nth-child(1)>div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 84vw;
+      height: 20vh;
+      background-color: var(--color-1);
+    }
+
+    main>section:nth-child(3)>div:nth-child(1)>div>div{
+      margin: 1.9vw;
+    }
+
+    main>section:nth-child(3)>div:nth-child(1)>div>div:nth-child(2){
+      border: 0.5px dashed var(--color-2);
+      height: 19vh;
+    }
+    main>section:nth-child(3)>div:nth-child(1)>div>div:nth-child(3){
+      height: 18vh;
+      width: 35vw;
+    }
+
+    main>section:nth-child(3)>div:nth-child(2){
+      width: inherit;
+      height: 33vh;
+
+      margin-top: 2vh;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    
+    main>section:nth-child(3)>div:nth-child(2)>div:nth-child(1){
+      width: 90vw;
+      height: 3vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      margin-bottom: 1vh;
+      margin-top: 1vh;
+    }
+
+    main>section:nth-child(3)>div:nth-child(2)>div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 2vw;
+
+      width: 90vw;
+      height: 30vh;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div></div>
+    <nav>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="image-box">
+      <div class="icon-ul"></div>
+      <div class="icon-ur"></div>
+      <div class="icon-dr"></div>
+      <div class="text-box">
+        <div class="text-d-t">밤톨이</div>
+        <div class="text-d-st">골든햄스터ㅣ남자</div>
+        <div class="text-d-tt">"나는 해씨랑 두부가 제일 좋아!"</div>
+      </div>
+    </section>
+    <section id="under-menu"> <!--하단 메뉴-->
+      <div>
+        <div><!--메뉴1-->
+          <div class="text-diary-m">밤톨이의 하루</div>
+        </div>
+        <div><!--메뉴1-->
+          <div class="text-diary-m">모아요 스탬프</div>
+        </div>
+        <div><!--메뉴1-->
+          <div class="text-diary-m">일정표</div>
+        </div>
+      </div>
+      <div class="under-bar"></div>
+    </section>
+    <section><!--내용-->
+      <div class="diary-box">
+        <div>
+          <div class="picture-d"><!--사진-->
+          </div>
+          <div></div> <!--가운데 줄-->
+          <div><!--텍스트-->
+            <div class="text-d-sm">밤톨이</div>
+            <div class="text-d-ss">
+              골든햄스터ㅣ남자<br>
+              like : 씨앗, 두부
+            </div>
+            <div class="text-d-ss">
+              해먹에서 노는 걸 좋아함<br>
+              갈색과 흼색이 섞인 털이<br> 제일 귀여운 포인트<br>
+              쫑긋거리는 코와 귀
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <div class="text-d-mt">밤톨이 일기</div>
+          <div class="text-d-tt">더보기</div>
+        </div>
+        <div> <!--그리드로 작업하기-->
+          <div class="picture-small"></div>
+          <div class="picture-small"></div>
+          <div class="picture-small"></div>
+          <div class="picture-small"></div>
+          <div class="picture-small"></div>
+          <div class="picture-small"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+<!--style.css에 base.css를 넣었는데 적용이 안된다. 원인을 찾아야함.-->
