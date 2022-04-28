@@ -53,7 +53,6 @@ main {
   
 }
 
-
 .box-pro {
   @include box(50vw, 50vw, $color-1, 30vw, none);
   margin-top: 5vh;
@@ -85,19 +84,6 @@ main {
   font-size: 90%;
   color: $color-2;
 }
-.image-box {
-  width: 100vw;
-  height: 30vh;
-  background-color: $color-1;
-
-  margin-top:5vh;
-}
-
-.diary-box {
-  width: 90vw;
-  height: 25vh;
-  background-color: $color-1;
-}
 
 .section-1 {
   margin-top: 2vw;
@@ -123,110 +109,131 @@ main {
   color: $color-5;
 }
 
-.icon-ul {
-  width: 7vw;
-  height: 7vw;
-  background-color: $color-2;
-  
-  position: absolute;
-  top: 6vh;
-  left: 5vw;
-}
-
-.icon-ur {
-  width: 7vw;
-  height: 7vw;
-  background-color: $color-2;
-  
-  position: absolute;
-  top: 6vh;
-  left: 89vw;
-}
-
-.icon-dr {
-  width: 7vw;
-  height: 7vw;
-  background-color: $color-2;
-  
-  position: absolute;
-  top: 27vh;
-  left: 89vw;
-}
-
-.text-box {
-  width: 60vw;
-  height: 8vh;
-
-  position: absolute;
-  top: 24vh;
-  left: 5vw;
-}
-
-.text-diary-m{
-  font-size: 100%;
-  color: $color-3;
-  text-align: center;
-}
-
-.text-d-t{
-  font-size: 110%;
-  color: $color-3;
-  font-weight: 600;
-}
-
-.text-d-st{
-  font-size: 90%;
-  color: $color-2;
-  font-weight: 600;
-}
-
-.text-d-tt{
-  font-size: 90%;
-  color: $color-2;
-}
-
-#under-menu {
-  width: 100vw;
-  height: 5vh;
-  // border: 1px solid red;
-  
-  @include flex(center, center, column);
-  
-  &>div:nth-child(1) {
-    @include flex(start, center, none);
+//프로필-다이어리 내용 
+.image-box {
+    width: 100vw;
+    height: 30vh;
+    background-color: $color-1;
     
+    margin-top:5vh;
+  }
+  
+  .diary-box {
     width: 90vw;
-    height: 5vh;
-
-    position: relative;
-    z-index: 2;
-    top: 0.2vw;
+    height: 25vh;
+    background-color: $color-1;
+  }
+  
+  .icon-ul {
+    width: 7vw;
+    height: 7vw;
+    background-color: $color-2;
     
-    &>div{ //메뉴1
-      @include flex(center, center, none);
+    position: absolute;
+    top: 6vh;
+    left: 5vw;
+  }
+  
+  .icon-ur {
+    width: 7vw;
+    height: 7vw;
+    background-color: $color-2;
+    
+    position: absolute;
+    top: 6vh;
+    left: 89vw;
+  }
+  
+  .icon-dr {
+    width: 7vw;
+    height: 7vw;
+    background-color: $color-2;
+    
+    position: absolute;
+    top: 27vh;
+    left: 89vw;
+  }
+  
+  .text-box {
+    width: 60vw;
+    height: 8vh;
+    
+    position: absolute;
+    top: 24vh;
+    left: 5vw;
+  }
+  
+  .text-diary-m{
+    font-size: 100%;
+    color: $color-3;
+    text-align: center;
+  }
+  
+  .text-d-t{
+    font-size: 110%;
+    color: $color-3;
+    font-weight: 600;
+  }
+
+  .text-d-st{
+    font-size: 90%;
+    color: $color-2;
+    font-weight: 600;
+  }
+  
+  .text-d-tt{
+    font-size: 90%;
+    color: $color-2;
+  }
+  
+  #under-menu {
+    width: 100vw;
+    height: 5vh;
+    // border: 1px solid red;
+    
+    @include flex(center, center, column);
+    
+    &>div:nth-child(1) {
+      @include flex(start, center, none);
       
+      width: 90vw;
       height: 5vh;
-      margin-right: 3vw;
-      // width: 25vw;
+      
+      position: relative;
+      z-index: 2;
+      top: 0.2vw;
+      
+      &>div{ //메뉴1
+        @include flex(center, center, none);
+        
+        height: 5vh;
+        margin-right: 3vw;
+        // width: 25vw;
+      }
     }
   }
-}
-
-.under-bar{
-  width: 100vw;
-  border: 0.7px solid $color-2;
   
-  position: relative;
-  bottom: 0;
-}
+  .under-bar{
+    width: 100vw;
+    border: 0.7px solid $color-2;
+    
+    position: relative;
+    bottom: 0;
+  }
+  
+  #under-menu>div:nth-child(1)>div :hover {
+    height: 3.5vh;
+    border-bottom: 3px solid $color-3;
+    padding-top: 1.5vh;
+  }
+  
+  // main>section:nth-child(2)>div:nth-child(1)>div>div :hover {
+    //   font-weight: 600;
+    // }
+    //마우스 오버를 하면 글씨가 두꺼워 진다(?) > 수정 필요
 
-#under-menu>div:nth-child(1)>div :hover {
-  height: 3.5vh;
-  border-bottom: 3px solid $color-3;
-  padding-top: 1.5vh;
-}
-
-main>section:nth-child(2)>div:nth-child(1)>div>div :hover {
-  font-weight: 600;
-}
-//마우스 오버를 하면 글씨가 두꺼워 진다(?) > 수정 필요
+    .text-d-mt{
+      font-size: 110%;
+      color: $color-2;
+      font-weight: 600;
+    }

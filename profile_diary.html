@@ -10,7 +10,7 @@
 
     main>section:nth-child(3){
       width: 100vw;
-      height: 65vh;
+      height: 60vh;
 
       display: flex;
       justify-content: center;
@@ -23,6 +23,15 @@
       justify-content: center;
       align-items: center;
       
+    }
+
+    main>section:nth-child(3)>div:nth-child(2){
+      width: inherit;
+      height: 30vh;
+
+      margin-top: 2vh;
+
+      background-color: bisque;
     }
 
 
@@ -64,16 +73,28 @@
       <div class="under-bar"></div>
     </section>
     <section><!--내용-->
-      <div class="diary-box"></div>
-      <div>
+      <div class="diary-box">
         <div>
           <div><!--사진-->
-
           </div>
-          <div></div>
+          <div></div> <!--가운데 줄-->
           <div><!--텍스트-->
-
           </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <div class="text-d-mt">밤톨이 일기</div>
+          <div class="text-d-tt">더보기</div>
+        </div>
+        <div> <!--그리드로 작업하기-->
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </section>
