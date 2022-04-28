@@ -1,6 +1,5 @@
-@import "base.css";
-@import "diary.css";
-
+@use 'base';
+@use 'diary';
 * {
   margin: 0;
   padding: 0;

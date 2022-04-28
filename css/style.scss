@@ -1,9 +1,12 @@
+@use 'base';
+@use 'diary';
+
+//color
 $color-1:#d4d4d4;
 $color-2:#949494;
 $color-3:#5e5e5e;
 $color-4:#252525;
 $color-5:#ffffff;
-
 
 
 @mixin flex($flex-j, $flex-a, $flex-d) {
@@ -166,7 +169,6 @@ main {
   text-decoration: line-through;
 }
 
-
 .flex-s-c {
   display: flex;
   justify-content: flex-start;
@@ -189,3 +191,5 @@ main {
   margin: 1vw;
   margin-left: 2vw;
 }
+
+//
