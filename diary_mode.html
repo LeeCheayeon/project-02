@@ -5,16 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>일기쓰기</title>
+  <title>일기 쓰기</title>
   <style>
-    main{
-      margin-top: 10vh;
+
+    body{
+      height: 90vh;
     }
 
+    main{
+      height: 77vh;
+      justify-content: start;
+    }
     main>section:nth-child(2){
       width: 100vw;
-      height: 100vh;
+      height: 90vh;
     }
+
+    main>section:nth-child(2)>div:nth-child(1){
+      margin-bottom: 2vh;
+    }
+
+    main>section:nth-child(2)>div:nth-child(2){
+      width: 90vw;
+      height: 10vh;
+
+      display: grid;
+      grid-template-columns: repeat(4, 10vh);
+      grid-template-rows: repeat(1,10vh);
+      grid-gap: 1.2vw;
+
+      margin-bottom: 2vh;
+    }
+
+    main>section:nth-child(2)>div:nth-child(3){
+      width: 96vw;
+      height: 3vh;
+      margin-left: 7vw;
+
+      margin-bottom: 7vh;
+    }
+
 
   </style>
 </head>
@@ -33,19 +63,32 @@
     <div id="nav">
       <div class="f-c-c"><!--상단고정-->
         <div class="icon"></div>
-        <div class="text-di-m">일기쓰기</div>
+        <div class="text-di-m">일기 쓰기</div>
         <div class="icon"></div>
       </div>
-      <div>
-        <div><!--icon--></div>
-      </div>
     </div>
-    <section class="f-c-c-c"> <!--일기장 사진-->
-      <div id="pictures"><!--사진묶음1-->
-        <div>
-          <div class="icon"></div>
-          <div class="text-di-s">00 병원 오후 3시</div>
+    <section class="f-c-c-c"> <!--일기내용-->
+      <div class="mode-textbox f-c-c"><!--내용 입력 상자-->
+        <div class="text-di-dt m-in-box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti quod nesciunt, obcaecati quo amet laudantium eum nisi perferendis ducimus, labore deserunt enim doloribus, voluptate expedita.<br><br>Dolorum quod vero vitae, ea similique asperiores tempora aperiam quo id, aliquid sapiente labore.
         </div>
+      </div>
+      <div class="flex-s-c"><!--사진 추가-->
+        <div class="mode-pic-box"></div>
+        <div class="mode-pic-box f-c-c"><!--메이크 파일 참고-->
+          <div class="minbox-row-1"></div>
+          <div class="minbox-row-2"></div>
+        </div>
+        <div class="mode-pic-box m-box-hidden"></div>
+        <div class="mode-pic-box m-box-hidden"></div>
+      </div>
+      <!--선택한 사진을 +박스 칸에 선택한 만큼(최대00개) 추가 하는 기능 필요. 사진 보관함이랑 연동하는 부분-->
+      <div class="flex-s-c">
+        <div class="icon"></div>
+        <div class="text-di-dm">내용을 입력하세요.</div>
+      </div>
+      <div class="mode-box f-c-c">
+        <div class="mode-box-t">일기작성</div>
       </div>
     </section>
   </main>
