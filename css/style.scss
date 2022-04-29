@@ -290,6 +290,7 @@ main {
     border-bottom: 1px solid $color-1;
     
     position: fixed;
+    z-index: 2;
     top: 5vh;
   }
   
@@ -321,6 +322,29 @@ main {
     margin-bottom: 2vw;
   }
 }
+
+// 일기 data
+.d-picture{
+  width: 100vw;
+  height: 50vh;
+  background-color: $color-1;
+  margin-bottom: 2vw;
+}
+
+.text-di-dm{
+  margin-left: 2vw;
+  font-size: 105%;
+  font-weight: 600;
+  color: $color-2;
+}
+
+.text-di-dt{
+  font-size: 95%;
+  color: $color-2;
+  margin-top: 2vw;
+}
+
+
 
 //마이페이지
 .box-mypage {

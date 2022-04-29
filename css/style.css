@@ -1,6 +1,5 @@
 @use 'base';
 @use 'daily';
-
 @import "base.css";
 @import "daily.css";
 * {
@@ -309,6 +308,7 @@ main {
   background-color: #ffffff;
   border-bottom: 1px solid #d4d4d4;
   position: fixed;
+  z-index: 2;
   top: 5vh;
 }
 
@@ -359,6 +359,26 @@ main {
           flex-direction: none;
   margin-left: 2vw;
   margin-bottom: 2vw;
+}
+
+.d-picture {
+  width: 100vw;
+  height: 50vh;
+  background-color: #d4d4d4;
+  margin-bottom: 2vw;
+}
+
+.text-di-dm {
+  margin-left: 2vw;
+  font-size: 105%;
+  font-weight: 600;
+  color: #949494;
+}
+
+.text-di-dt {
+  font-size: 95%;
+  color: #949494;
+  margin-top: 2vw;
 }
 
 .box-mypage {
