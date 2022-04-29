@@ -1,9 +1,8 @@
 @use 'base';
 @use 'daily';
 
-@import "base";
-@import "daily";
-
+@import "base.css";
+@import "daily.css";
 * {
   margin: 0;
   padding: 0;
@@ -289,8 +288,8 @@ main {
   font-size: 110%;
   font-weight: 600;
   color: #5e5e5e;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  text-align: center;
+  width: 80vw;
 }
 
 .text-di-s {
@@ -301,7 +300,6 @@ main {
 
 #nav {
   width: 100vw;
-  height: 5vh;
   margin-top: 5vh;
 }
 

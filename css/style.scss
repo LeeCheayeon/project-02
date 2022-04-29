@@ -268,9 +268,8 @@ main {
   font-size: 110%;
   font-weight: 600;
   color: $color-3;
-
-  margin-left: 30vw;
-  margin-right: 30vw;
+  text-align: center;
+  width: 80vw;
 }
 
 .text-di-s{
@@ -282,8 +281,6 @@ main {
 
 #nav {
   width: 100vw;
-  height: 5vh;
-
   margin-top: 5vh;
 
   &>div:nth-child(1){
