@@ -398,7 +398,7 @@ main {
 .f-e-c{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: center ;
 }
 
 
@@ -436,4 +436,61 @@ main {
   background-color: $color-1;
   font-weight: 600;
   color: $color-5;
+}
+
+// 포토북 메인
+.text-poto-big{
+  font-size: 190%;
+  font-weight: 700;
+  color: $color-3;
+}
+
+.poto-pic{
+  width: 100vw;
+  height:40vh;
+  background-color: $color-1;
+}
+
+.poto-pic-s{
+  width: 8vh;
+  height: 8vh;
+  background-color: $color-1;
+  margin-right: 1vw;
+  border-radius: 2vw;
+}
+
+.poto-minbox{
+  width: 3vw;
+  height: 3vw;
+  background-color: $color-2;
+  border-radius: 3vw;
+  margin: 1vw;
+  margin-bottom: 3vw;
+}
+
+.f-c-e{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.f-s-e{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.text-poto-s{
+  width: 58vw;
+  height: 8vh;
+  font-size: 75%;
+  color: $color-3;
+  line-height: 5vw;
+  margin-left: 1vw;
+}
+
+.poto-box{
+  width: 80vw;
+  height: 5vh;
+  border-radius: 2vw;
+  background-color: $color-2;
 }
